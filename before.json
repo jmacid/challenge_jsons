@@ -1,0 +1,19 @@
+{
+	"Mercedes-Benz": [
+		"AMG GT",
+		"S-Class"
+	],
+	"Porsche": [
+		"911",
+		"Boxster",
+		"Roadster"
+	],
+	"Tesla": [
+		"Model S",
+		"Model X"
+	],
+	"fakeBrand": [
+		"fakeModel1",
+		"fakeModel2"
+	]
+}

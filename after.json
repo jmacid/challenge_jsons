@@ -1,0 +1,17 @@
+{
+	"Acura": [
+		"Integra",
+		"RSX"
+	],
+	"Mercedes-Benz": [
+		"Roadster"
+	],
+	"Porsche": [
+		"911",
+		"Roadster"
+	],
+	"Tesla": [
+		"Model 3",
+		"Model Y"
+	]
+}

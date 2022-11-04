@@ -1,0 +1,74 @@
+Example:
+
+Before
+==================================================
+{
+	"Mercedes-Benz": [
+		"AMG GT",
+		"S-Class"
+	],
+	"Porsche": [
+		"911",
+		"Boxster",
+		"Roadster"
+	],
+	"Tesla": [
+		"Model S",
+		"Model X"
+	]
+}
+==================================================
+
+
+After
+==================================================
+{
+	"Acura": [
+		"Integra",
+		"RSX"
+	],
+	"Mercedes-Benz": [
+		"Roadster"
+	],
+	"Porsche": [
+		"911",
+		"Roadster"
+	],
+	"Tesla": [
+		"Model 3",
+		"Model Y"
+	]
+}
+
+
+Output
+==================================================
+{
+	"added": {
+		"Acura": [
+			"Integra",
+			"RSX"
+		],
+		"Mercedes-Benz": [
+			"Roadster"
+		],
+		"Tesla": [
+			"Model 3",
+			"Model Y"
+		]
+	},
+	"removed": {
+		"Mercedes-Benz": [
+			"AMG GT",
+			"S-Class"
+		],
+		"Porsche": [
+			"Boxster"
+		],
+		"Tesla": [
+			"Model S",
+			"Model X"
+		]
+	}
+}
+ 
